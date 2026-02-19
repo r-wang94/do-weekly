@@ -151,6 +151,57 @@
     footer a:hover {
       text-decoration: underline;
     }
+
+    .feedback {
+      margin-top: 3rem;
+    }
+
+    .feedback h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--muted);
+    }
+
+    .feedback p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .feedback textarea {
+      width: 100%;
+      min-height: 100px;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--card-bg);
+      resize: vertical;
+    }
+
+    .feedback textarea:focus {
+      outline: none;
+      border-color: var(--muted);
+    }
+
+    .feedback button {
+      margin-top: 0.75rem;
+      padding: 0.5rem 1.25rem;
+      background: var(--accent-dark);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+
+    .feedback button:hover {
+      opacity: 0.85;
+    }
   </style>
 </head>
 <body>
@@ -205,10 +256,33 @@
       </ul>
     </div>
 
+    <div class="feedback">
+      <h2>What did you think?</h2>
+      <p>This is early days. Honest feedback helps shape what comes next.</p>
+      <form action="https://formspree.io/f/xykdpqdn" method="POST">
+        <textarea name="message" placeholder="What landed? What didn't? What would you like to hear about?" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
     <footer>
-      <p><a href="feed.xml">Subscribe via RSS</a></p>
+      <p><a href="#" onclick="navigator.clipboard.writeText('https://r-wang94.github.io/do-weekly/feed.xml').then(()=>{this.textContent='Copied! Paste into your podcast app';setTimeout(()=>{this.textContent='Copy RSS feed link'},2000)});return false">Copy RSS feed link</a></p>
       <p><a href="https://dohealth.co">Do Health</a></p>
     </footer>
   </div>
+  <script data-goatcounter="https://robinwang.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script>
+    document.querySelectorAll('audio').forEach(function(el) {
+      var fired = false;
+      el.addEventListener('play', function() {
+        if (fired) return;
+        fired = true;
+        var ep = el.closest('.episode').querySelector('.episode-title').textContent.toLowerCase();
+        if (window.goatcounter && goatcounter.count) {
+          goatcounter.count({ path: 'play:' + ep, title: 'Play: ' + ep, event: true });
+        }
+      });
+    });
+  </script>
 </body>
 </html>
