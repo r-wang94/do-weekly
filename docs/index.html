@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do Weekly — A weekly programme from Do Health</title>
+  <meta name="description" content="Short weekly episodes on building lasting healthy habits. Hosted by Dr Robin Wang.">
+  <style>
+    :root {
+      --bg: #fafaf8;
+      --text: #19301E;
+      --muted: #67796B;
+      --border: #e0ddd8;
+      --accent: #b9f00a;
+      --accent-dark: #19301E;
+      --card-bg: #ffffff;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    .logo {
+      height: 32px;
+      width: auto;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.25rem;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .about {
+      margin-bottom: 3rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    .episodes {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .episode {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+
+    .episode-number {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .episode-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    .episode-description {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    audio {
+      width: 100%;
+      height: 40px;
+    }
+
+    .upcoming {
+      margin-top: 3rem;
+    }
+
+    .upcoming h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: var(--muted);
+    }
+
+    .upcoming-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .upcoming-list li {
+      font-size: 0.9rem;
+      color: var(--muted);
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .upcoming-list li:last-child {
+      border-bottom: none;
+    }
+
+    .upcoming-list .ep-num {
+      display: inline-block;
+      width: 1.5rem;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--accent-dark);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://cdn.prod.website-files.com/6941b29a77eb5a70a6675f1d/6953b1704a6c5b2155e4aaaa_full-logo.svg" alt="Do Health" class="logo">
+      <h1>Do Weekly</h1>
+      <p class="subtitle">Short weekly episodes on building lasting healthy habits</p>
+    </header>
+
+    <div class="about">
+      <p>Not through willpower or guilt, but by shifting who you believe you are. Hosted by Dr Robin Wang, clinical lead at Do Health.</p>
+    </div>
+
+    <div class="episodes">
+      <div class="episode">
+        <div class="episode-number">Episode 1</div>
+        <div class="episode-title">Identity</div>
+        <div class="episode-description">You are what you repeat</div>
+        <audio controls preload="none">
+          <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/1_identity/recording.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="episode">
+        <div class="episode-number">Episode 2</div>
+        <div class="episode-title">Discomfort</div>
+        <div class="episode-description">Comfort is the trap</div>
+        <audio controls preload="none">
+          <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/2_discomfort/recording.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="episode">
+        <div class="episode-number">Episode 3</div>
+        <div class="episode-title">Notice</div>
+        <div class="episode-description">A guided meditation</div>
+        <audio controls preload="none">
+          <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/3_notice/recording.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+
+    <div class="upcoming">
+      <h2>Coming up</h2>
+      <ul class="upcoming-list">
+        <li><span class="ep-num">4.</span> Choose — The power of naming the choice</li>
+        <li><span class="ep-num">5.</span> Capacity — You can't pour from empty</li>
+        <li><span class="ep-num">6.</span> Setbacks — Give up or keep going</li>
+        <li><span class="ep-num">7.</span> Destination — You were never going somewhere</li>
+        <li><span class="ep-num">8.</span> Tonight — Tomorrow starts tonight</li>
+      </ul>
+    </div>
+
+    <footer>
+      <p><a href="feed.xml">Subscribe via RSS</a></p>
+      <p><a href="https://dohealth.co">Do Health</a></p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,7 +1,7 @@
 # Do Weekly Script Generator — System Prompt
 
 > **TRIGGER:** When the user asks to brainstorm, write, edit, or review a Do Weekly script:
-> 1. Read this file (`podcasts/prompt.md`)
+> 1. Read this file (`CLAUDE.md`)
 > 2. Read `podcasts/research/science.md`
 > 3. Write or review the episode's `concept.md` (in `podcasts/episodes/N_theme/`) — get approval before proceeding
 > 4. Write `script.md` from the approved concept
@@ -251,7 +251,7 @@ Each episode lives in its own folder under `episodes/`, named `N_theme`:
 
 ```
 podcasts/
-├── prompt.md                  # This file — the system prompt
+├── CLAUDE.md                  # This file — the system prompt
 ├── timeline.md                # Planned themes and theme bank
 ├── README.md                  # Nomenclature and workflow guide
 ├── episodes/
@@ -288,7 +288,7 @@ A growing collection of principles, guidance, quotes, books, papers, and referen
 ## Generation Instructions
 
 ### Step 1 — read:
-1. Read this file (`prompt.md`) — the system prompt
+1. Read this file (`CLAUDE.md`) — the system prompt
 2. Read `research/science.md` — the biomarker and clinical evidence base
 
 ### Step 2 — write the concept:

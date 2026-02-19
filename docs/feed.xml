@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Do Weekly</title>
+    <link>https://r-wang94.github.io/do-weekly/</link>
+    <atom:link href="https://r-wang94.github.io/do-weekly/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Short weekly episodes on building lasting healthy habits. Not through willpower or guilt, but by shifting who you believe you are. Hosted by Dr Robin Wang, clinical lead at Do Health.</description>
+    <language>en-gb</language>
+    <itunes:author>Dr Robin Wang</itunes:author>
+    <itunes:summary>Short weekly episodes on building lasting healthy habits. Not through willpower or guilt, but by shifting who you believe you are. Hosted by Dr Robin Wang, clinical lead at Do Health.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Dr Robin Wang</itunes:name>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Health &amp; Fitness">
+      <itunes:category text="Self-Improvement"/>
+    </itunes:category>
+    <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>Identity — You are what you repeat</title>
+      <itunes:title>Identity — You are what you repeat</itunes:title>
+      <itunes:episode>1</itunes:episode>
+      <description>What if the habits you struggle to build could feel as effortless as the ones you already have? Identity-based change means shifting who you believe you are, not just what you do.</description>
+      <enclosure url="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/1_identity/recording.mp3" length="4796058" type="audio/mpeg"/>
+      <itunes:duration>405</itunes:duration>
+      <pubDate>Wed, 05 Feb 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="false">do-weekly-ep-1-identity</guid>
+    </item>
+
+    <item>
+      <title>Discomfort — Comfort is the trap</title>
+      <itunes:title>Discomfort — Comfort is the trap</itunes:title>
+      <itunes:episode>2</itunes:episode>
+      <description>We've engineered our lives to avoid discomfort. But comfort is where growth stops. The things that ask a little more of us make us feel alive. The discomfort is where the aliveness lives.</description>
+      <enclosure url="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/2_discomfort/recording.mp3" length="5033006" type="audio/mpeg"/>
+      <itunes:duration>424</itunes:duration>
+      <pubDate>Wed, 12 Feb 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="false">do-weekly-ep-2-discomfort</guid>
+    </item>
+
+    <item>
+      <title>Notice — A guided meditation</title>
+      <itunes:title>Notice — A guided meditation</itunes:title>
+      <itunes:episode>3</itunes:episode>
+      <description>Most people think they can't meditate because their mind wanders. But the wandering isn't the failure. The moment you notice you've wandered is the entire practice. You already did it. You just didn't know it counted.</description>
+      <enclosure url="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/3_notice/recording.mp3" length="5150058" type="audio/mpeg"/>
+      <itunes:duration>507</itunes:duration>
+      <pubDate>Wed, 19 Feb 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="false">do-weekly-ep-3-notice</guid>
+    </item>
+
+  </channel>
+</rss>

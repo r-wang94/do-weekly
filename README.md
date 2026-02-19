@@ -6,7 +6,7 @@ This directory contains everything needed to produce Do Weekly, a weekly audio p
 
 ```
 podcasts/
-├── prompt.md                  # System prompt for script generation
+├── CLAUDE.md                  # System prompt for script generation
 ├── timeline.md                # Planned episode themes and theme bank
 ├── README.md                  # This file
 ├── episodes/                  # All episodes, one folder each
@@ -58,5 +58,5 @@ Additional source material is available outside this directory:
 1. Choose a theme from `timeline.md`
 2. Create the episode folder (`episodes/N_theme/`)
 3. Write `concept.md` — gather episode-specific research, define the angle
-4. Generate `script.md` using `prompt.md` as the system prompt, informed by `concept.md` and the research bank
+4. Generate `script.md` using `CLAUDE.md` as the system prompt, informed by `concept.md` and the research bank
 5. Record and save as `recording.mp3`
