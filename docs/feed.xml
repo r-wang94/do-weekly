@@ -42,16 +42,5 @@
       <guid isPermaLink="false">do-weekly-ep-2-discomfort</guid>
     </item>
 
-    <item>
-      <title>Notice — A guided meditation</title>
-      <itunes:title>Notice — A guided meditation</itunes:title>
-      <itunes:episode>3</itunes:episode>
-      <description>Most people think they can't meditate because their mind wanders. But the wandering isn't the failure. The moment you notice you've wandered is the entire practice. You already did it. You just didn't know it counted.</description>
-      <enclosure url="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/3_notice/recording.mp3" length="5150058" type="audio/mpeg"/>
-      <itunes:duration>507</itunes:duration>
-      <pubDate>Wed, 19 Feb 2026 06:00:00 +0000</pubDate>
-      <guid isPermaLink="false">do-weekly-ep-3-notice</guid>
-    </item>
-
   </channel>
 </rss>

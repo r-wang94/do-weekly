@@ -152,54 +152,41 @@
       text-decoration: underline;
     }
 
-    .feedback {
-      margin-top: 3rem;
+    .episode-feedback {
+      margin-top: 1rem;
+      display: flex;
+      gap: 0.5rem;
     }
 
-    .feedback h2 {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-      color: var(--muted);
-    }
-
-    .feedback p {
-      font-size: 0.9rem;
-      color: var(--muted);
-      margin-bottom: 1rem;
-    }
-
-    .feedback textarea {
-      width: 100%;
-      min-height: 100px;
-      padding: 0.75rem;
+    .episode-feedback input {
+      flex: 1;
+      padding: 0.4rem 0.6rem;
       border: 1px solid var(--border);
       border-radius: 6px;
       font-family: inherit;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       color: var(--text);
-      background: var(--card-bg);
-      resize: vertical;
+      background: var(--bg);
     }
 
-    .feedback textarea:focus {
+    .episode-feedback input:focus {
       outline: none;
       border-color: var(--muted);
     }
 
-    .feedback button {
-      margin-top: 0.75rem;
-      padding: 0.5rem 1.25rem;
+    .episode-feedback button {
+      padding: 0.4rem 0.8rem;
       background: var(--accent-dark);
       color: #fff;
       border: none;
       border-radius: 6px;
       font-family: inherit;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       cursor: pointer;
+      white-space: nowrap;
     }
 
-    .feedback button:hover {
+    .episode-feedback button:hover {
       opacity: 0.85;
     }
   </style>
@@ -224,6 +211,11 @@
         <audio controls preload="none">
           <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/1_identity/recording.mp3" type="audio/mpeg">
         </audio>
+        <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST">
+          <input type="hidden" name="episode" value="Episode 1 — Identity">
+          <input type="text" name="message" placeholder="What did you think?" required>
+          <button type="submit">Send</button>
+        </form>
       </div>
 
       <div class="episode">
@@ -233,21 +225,19 @@
         <audio controls preload="none">
           <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/2_discomfort/recording.mp3" type="audio/mpeg">
         </audio>
+        <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST">
+          <input type="hidden" name="episode" value="Episode 2 — Discomfort">
+          <input type="text" name="message" placeholder="What did you think?" required>
+          <button type="submit">Send</button>
+        </form>
       </div>
 
-      <div class="episode">
-        <div class="episode-number">Episode 3</div>
-        <div class="episode-title">Notice</div>
-        <div class="episode-description">A guided meditation</div>
-        <audio controls preload="none">
-          <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/3_notice/recording.mp3" type="audio/mpeg">
-        </audio>
-      </div>
     </div>
 
     <div class="upcoming">
       <h2>Coming up</h2>
       <ul class="upcoming-list">
+        <li><span class="ep-num">3.</span> Notice — A guided meditation</li>
         <li><span class="ep-num">4.</span> Choose — The power of naming the choice</li>
         <li><span class="ep-num">5.</span> Capacity — You can't pour from empty</li>
         <li><span class="ep-num">6.</span> Setbacks — Give up or keep going</li>
@@ -256,17 +246,7 @@
       </ul>
     </div>
 
-    <div class="feedback">
-      <h2>What did you think?</h2>
-      <p>This is early days. Honest feedback helps shape what comes next.</p>
-      <form action="https://formspree.io/f/xykdpqdn" method="POST">
-        <textarea name="message" placeholder="What landed? What didn't? What would you like to hear about?" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </div>
-
     <footer>
-      <p><a href="#" onclick="navigator.clipboard.writeText('https://r-wang94.github.io/do-weekly/feed.xml').then(()=>{this.textContent='Copied! Paste into your podcast app';setTimeout(()=>{this.textContent='Copy RSS feed link'},2000)});return false">Copy RSS feed link</a></p>
       <p><a href="https://dohealth.co">Do Health</a></p>
     </footer>
   </div>

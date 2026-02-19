@@ -352,3 +352,15 @@ The QA pass above catches sentence-level problems. This step catches structural 
     - **`reading_list.md`** — add any new books, papers, or studies drawn from
     - **`foundations.md`** — add any new principles or frameworks that were articulated for the first time
 15. Tag direct quotes in `quotes.md` or `metaphors.md` with *(used ep N)* only if the exact phrasing was used verbatim and shouldn't be repeated word-for-word
+
+### Step 5 — publish (after recording):
+When a `recording.mp3` is added to an episode folder:
+16. **Update `docs/index.html`:**
+    - Add an episode card (with audio player) to the `.episodes` section, following the existing pattern
+    - Remove the episode from the "Coming up" list
+    - Audio `src` uses `https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/N_theme/recording.mp3`
+17. **Update `docs/feed.xml`:**
+    - Add an `<item>` entry with title, description (from `concept.md` theme), enclosure URL, file size (`length`), duration in seconds, and `pubDate`
+    - Use `guid` format: `do-weekly-ep-N-theme`
+    - Get file size with `ls -la` and duration with `afinfo`
+18. **Update `timeline.md`:** Move the episode from Planned to Recorded
