@@ -96,9 +96,65 @@
       line-height: 1.5;
     }
 
-    audio {
+    .player {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .player audio { display: none; }
+
+    .play-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: none;
+      background: var(--accent-dark);
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .play-btn:hover { opacity: 0.85; }
+
+    .play-btn svg {
+      width: 14px;
+      height: 14px;
+      fill: #fff;
+    }
+
+    .player-track {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .progress-bar {
       width: 100%;
-      height: 40px;
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--accent-dark);
+      border-radius: 2px;
+      width: 0%;
+      transition: width 0.1s linear;
+    }
+
+    .player-time {
+      font-size: 0.7rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
     }
 
     .upcoming {
@@ -190,6 +246,44 @@
     .episode-feedback button:hover {
       opacity: 0.85;
     }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 2rem 1rem 3rem;
+      }
+
+      header {
+        margin-bottom: 2rem;
+      }
+
+      .about {
+        margin-bottom: 2rem;
+      }
+
+      .episode {
+        padding: 1.25rem;
+      }
+
+      .episode-feedback input {
+        font-size: 1rem;
+      }
+
+      .episode-feedback button {
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -204,34 +298,56 @@
       <p>Not through willpower or guilt, but by shifting who you believe you are. Hosted by Dr Robin Wang, clinical lead at Do Health.</p>
     </div>
 
-    <div class="episodes">
-      <div class="episode">
+    <div class="episodes" role="list">
+      <article class="episode" role="listitem">
         <div class="episode-number">Episode 1</div>
         <div class="episode-title">Identity</div>
         <div class="episode-description">You are what you repeat</div>
-        <audio controls preload="none">
-          <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/1_identity/recording.mp3" type="audio/mpeg">
-        </audio>
-        <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST">
+        <div class="player" aria-label="Play Episode 1: Identity">
+          <audio preload="none">
+            <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/1_identity/recording.mp3" type="audio/mpeg">
+          </audio>
+          <button class="play-btn" aria-label="Play">
+            <svg viewBox="0 0 16 16" class="icon-play"><polygon points="3,1 13,8 3,15"/></svg>
+            <svg viewBox="0 0 16 16" class="icon-pause" style="display:none"><rect x="2" y="1" width="4" height="14"/><rect x="10" y="1" width="4" height="14"/></svg>
+          </button>
+          <div class="player-track">
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <div class="player-time"><span class="time-current">0:00</span><span class="time-duration">0:00</span></div>
+          </div>
+        </div>
+        <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST" aria-label="Feedback for Episode 1">
           <input type="hidden" name="episode" value="Episode 1 — Identity">
-          <input type="text" name="message" placeholder="What did you think?" required>
+          <label for="feedback-1" class="sr-only">Your feedback on Episode 1</label>
+          <input type="text" id="feedback-1" name="message" placeholder="What did you think?" required>
           <button type="submit">Send</button>
         </form>
-      </div>
+      </article>
 
-      <div class="episode">
+      <article class="episode" role="listitem">
         <div class="episode-number">Episode 2</div>
         <div class="episode-title">Discomfort</div>
         <div class="episode-description">Comfort is the trap</div>
-        <audio controls preload="none">
-          <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/2_discomfort/recording.mp3" type="audio/mpeg">
-        </audio>
-        <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST">
+        <div class="player" aria-label="Play Episode 2: Discomfort">
+          <audio preload="none">
+            <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/2_discomfort/recording.mp3" type="audio/mpeg">
+          </audio>
+          <button class="play-btn" aria-label="Play">
+            <svg viewBox="0 0 16 16" class="icon-play"><polygon points="3,1 13,8 3,15"/></svg>
+            <svg viewBox="0 0 16 16" class="icon-pause" style="display:none"><rect x="2" y="1" width="4" height="14"/><rect x="10" y="1" width="4" height="14"/></svg>
+          </button>
+          <div class="player-track">
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <div class="player-time"><span class="time-current">0:00</span><span class="time-duration">0:00</span></div>
+          </div>
+        </div>
+        <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST" aria-label="Feedback for Episode 2">
           <input type="hidden" name="episode" value="Episode 2 — Discomfort">
-          <input type="text" name="message" placeholder="What did you think?" required>
+          <label for="feedback-2" class="sr-only">Your feedback on Episode 2</label>
+          <input type="text" id="feedback-2" name="message" placeholder="What did you think?" required>
           <button type="submit">Send</button>
         </form>
-      </div>
+      </article>
 
     </div>
 
@@ -253,15 +369,73 @@
   </div>
   <script data-goatcounter="https://robinwang.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   <script>
-    document.querySelectorAll('audio').forEach(function(el) {
-      var fired = false;
-      el.addEventListener('play', function() {
-        if (fired) return;
-        fired = true;
-        var ep = el.closest('.episode').querySelector('.episode-title').textContent.toLowerCase();
-        if (window.goatcounter && goatcounter.count) {
-          goatcounter.count({ path: 'play:' + ep, title: 'Play: ' + ep, event: true });
+    document.querySelectorAll('.player').forEach(function(p) {
+      var audio = p.querySelector('audio');
+      var btn = p.querySelector('.play-btn');
+      var iconPlay = p.querySelector('.icon-play');
+      var iconPause = p.querySelector('.icon-pause');
+      var fill = p.querySelector('.progress-fill');
+      var bar = p.querySelector('.progress-bar');
+      var timeCur = p.querySelector('.time-current');
+      var timeDur = p.querySelector('.time-duration');
+      var tracked = false;
+
+      function fmt(s) {
+        var m = Math.floor(s / 60);
+        var sec = Math.floor(s % 60);
+        return m + ':' + (sec < 10 ? '0' : '') + sec;
+      }
+
+      btn.addEventListener('click', function() {
+        // pause other players
+        document.querySelectorAll('.player audio').forEach(function(a) {
+          if (a !== audio && !a.paused) a.pause();
+        });
+        if (audio.paused) {
+          audio.play();
+        } else {
+          audio.pause();
         }
+      });
+
+      audio.addEventListener('play', function() {
+        iconPlay.style.display = 'none';
+        iconPause.style.display = '';
+        btn.setAttribute('aria-label', 'Pause');
+        if (!tracked) {
+          tracked = true;
+          var ep = p.closest('.episode').querySelector('.episode-title').textContent.toLowerCase();
+          if (window.goatcounter && goatcounter.count) {
+            goatcounter.count({ path: 'play:' + ep, title: 'Play: ' + ep, event: true });
+          }
+        }
+      });
+
+      audio.addEventListener('pause', function() {
+        iconPlay.style.display = '';
+        iconPause.style.display = 'none';
+        btn.setAttribute('aria-label', 'Play');
+      });
+
+      audio.addEventListener('loadedmetadata', function() {
+        timeDur.textContent = fmt(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', function() {
+        if (!audio.duration) return;
+        fill.style.width = (audio.currentTime / audio.duration * 100) + '%';
+        timeCur.textContent = fmt(audio.currentTime);
+      });
+
+      audio.addEventListener('ended', function() {
+        fill.style.width = '0%';
+        timeCur.textContent = '0:00';
+      });
+
+      bar.addEventListener('click', function(e) {
+        if (!audio.duration) return;
+        var pct = e.offsetX / bar.offsetWidth;
+        audio.currentTime = pct * audio.duration;
       });
     });
   </script>
