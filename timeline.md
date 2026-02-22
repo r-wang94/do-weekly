@@ -20,22 +20,23 @@
 
 ### Conceptual
 
-11. **One** — The distance between zero and one is infinite
-12. **Stories** — The story you're telling yourself
-13. **Boring** — Consistency is boring. Good.
-14. **Control** — What can you actually change?
-15. **Pause** — The gap between stimulus and response
-16. **Permission** — Stop waiting for permission
-17. **Enough** — When is enough, enough?
-18. **Showing up** — Done is better than perfect
-19. **Wonder** — The small delights hiding in plain sight
-20. **Capable** — You've made it through 100% of your hardest days
-21. **Voice** — The voice in your head. Is it a friend or a critic?
-22. **Seeds** — Planting now for a harvest you won't see yet
-23. **Wood** — Before enlightenment, chop wood. After enlightenment, chop wood.
-24. **Less** — The power of subtraction. What could you stop doing?
-25. **Grip** — The thing you're holding too tightly
-26. **Why** — He who has a why can bear any how
+11. **Seeds** — Planting now for a harvest you won't see yet
+12. **Moderation** — Your body already knows when to stop
+13. **One** — The distance between zero and one is infinite
+14. **Stories** — The story you're telling yourself
+15. **Boring** — Consistency is boring. Good.
+16. **Control** — What can you actually change?
+17. **Pause** — The gap between stimulus and response
+18. **Permission** — Stop waiting for permission
+19. **Enough** — When is enough, enough?
+20. **Showing up** — Done is better than perfect
+21. **Wonder** — The small delights hiding in plain sight
+22. **Capable** — You've made it through 100% of your hardest days
+23. **Voice** — The voice in your head. Is it a friend or a critic?
+24. **Wood** — Before enlightenment, chop wood. After enlightenment, chop wood.
+25. **Less** — The power of subtraction. What could you stop doing?
+26. **Grip** — The thing you're holding too tightly
+27. **Why** — He who has a why can bear any how
 
 ---
 

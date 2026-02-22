@@ -303,6 +303,9 @@ The concept is the brief. It should be self-sufficient — everything the script
 
 Do not bulk-load these before writing. They are reference material, not pre-reading. If the script starts sounding like a framework, you've read too much.
 
+### Step 2b — before ANY script edit or suggestion:
+**Re-read the relevant sections of this file before every script change or suggestion.** This includes edits, line replacements, CTA drafts, structural changes, and brainstorming. Do not rely on memory of the prompt. Re-read the tone, voice, CTA, and structural guidelines fresh each time. If you haven't re-read the prompt in this turn, do it before touching the script.
+
 ### Step 3 — write the script:
 6. Write from the approved concept. The concept is the brief
 7. Ensure all emotional beats are present, but let the shape emerge naturally — don't force them into a fixed order
