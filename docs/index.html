@@ -247,6 +247,73 @@
       opacity: 0.85;
     }
 
+    .show-notes-toggle {
+      display: block;
+      margin-top: 1rem;
+      padding: 0;
+      background: none;
+      border: none;
+      font-family: inherit;
+      font-size: 0.8rem;
+      color: var(--muted);
+      cursor: pointer;
+      letter-spacing: 0.02em;
+    }
+
+    .show-notes-toggle:hover {
+      color: var(--text);
+    }
+
+    .show-notes-toggle .arrow {
+      display: inline-block;
+      transition: transform 0.2s ease;
+      margin-right: 0.25rem;
+    }
+
+    .show-notes-toggle.open .arrow {
+      transform: rotate(90deg);
+    }
+
+    .show-notes {
+      display: none;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .show-notes.open {
+      display: block;
+    }
+
+    .show-notes-summary {
+      font-size: 0.88rem;
+      color: var(--text);
+      line-height: 1.65;
+      margin-bottom: 1.25rem;
+    }
+
+    .show-notes-quote {
+      font-size: 0.95rem;
+      font-weight: 500;
+      font-style: italic;
+      color: var(--text);
+      border-left: 3px solid var(--accent);
+      padding: 0.5rem 0 0.5rem 1rem;
+      margin-bottom: 1.25rem;
+      line-height: 1.55;
+    }
+
+    .show-notes-cta {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .show-notes-cta strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
     .sr-only {
       position: absolute;
       width: 1px;
@@ -316,6 +383,12 @@
             <div class="player-time"><span class="time-current">0:00</span><span class="time-duration">0:00</span></div>
           </div>
         </div>
+        <button class="show-notes-toggle" aria-expanded="false" aria-controls="notes-1"><span class="arrow">&#9654;</span> Show notes</button>
+        <div class="show-notes" id="notes-1">
+          <p class="show-notes-summary">You already have identities that run on autopilot. You're a tea drinker. Someone who calls their mum. Someone who makes their bed. Those labels don't take willpower. This episode asks: what if you could do the same thing with your health?</p>
+          <p class="show-notes-quote">"Stop trying to force yourself into good habits. Start becoming the kind of person for whom those habits make sense."</p>
+          <p class="show-notes-cta"><strong>This week:</strong> Write one identity sentence on a sticky note. "I'm someone who walks." "I'm someone who winds down before bed." Put it where you'll see it. Let it sit.</p>
+        </div>
         <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST" aria-label="Feedback for Episode 1">
           <input type="hidden" name="episode" value="Episode 1 – Identity">
           <label for="feedback-1" class="sr-only">Your feedback on Episode 1</label>
@@ -340,6 +413,12 @@
             <div class="progress-bar"><div class="progress-fill"></div></div>
             <div class="player-time"><span class="time-current">0:00</span><span class="time-duration">0:00</span></div>
           </div>
+        </div>
+        <button class="show-notes-toggle" aria-expanded="false" aria-controls="notes-2"><span class="arrow">&#9654;</span> Show notes</button>
+        <div class="show-notes" id="notes-2">
+          <p class="show-notes-summary">There's a strange exhaustion that comes from doing nothing at all. The scroll, the snack, the extra episode. They go down easy but leave you hungrier than before. This episode asks why comfort keeps making us feel worse, and what we're actually reaching for.</p>
+          <p class="show-notes-quote">"What we're actually craving isn't comfort. It's aliveness."</p>
+          <p class="show-notes-cta"><strong>This week:</strong> Pick one small thing you've been avoiding. Do it for 10 minutes. When you're done, pause. One breath. Notice how you feel.</p>
         </div>
         <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST" aria-label="Feedback for Episode 2">
           <input type="hidden" name="episode" value="Episode 2 – Discomfort">
@@ -436,6 +515,15 @@
         if (!audio.duration) return;
         var pct = e.offsetX / bar.offsetWidth;
         audio.currentTime = pct * audio.duration;
+      });
+    });
+
+    document.querySelectorAll('.show-notes-toggle').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var notes = document.getElementById(btn.getAttribute('aria-controls'));
+        var isOpen = btn.classList.toggle('open');
+        notes.classList.toggle('open');
+        btn.setAttribute('aria-expanded', isOpen);
       });
     });
   </script>
