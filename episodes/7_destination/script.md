@@ -1,4 +1,4 @@
-# Episode 7: Destination
+# Week 7: Destination
 
 ---
 

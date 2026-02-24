@@ -1,4 +1,4 @@
-# Episode 6: Setbacks — Give up or keep going. There is no third option.
+# Episode 4: Setbacks — Give up or keep going. There is no third option.
 
 ## Theme
 Setbacks aren't interruptions to the journey. They ARE the journey. When something knocks you down — an injury, a diagnosis, a relapse into old habits, a week where everything falls apart — you face exactly two choices. Give up or keep going. There is no third option. There is no "wait until I feel ready." There is no "I'll start again when things are easier." You're either moving forward, however slowly, or you've stopped. This episode uses Robin's real experience — a back injury from rowing, a spine deformity, hospitalisation, and a period of being largely immobilised — to ground the idea in something lived, not theoretical.

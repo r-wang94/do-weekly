@@ -1,4 +1,4 @@
-# Episode 4: Choose — The power of naming the choice
+# Episode 5: Choose — The power of naming the choice
 
 ## Theme
 Most of what we do in a day isn't chosen. It's automatic. The hand reaches for the phone. The biscuit goes in the mouth. The alarm gets snoozed. It all has the shape of a decision, but none of the consciousness of a choice. This episode introduces a single, disarmingly simple tool: before you do the thing you keep saying you want to change, say the words "I choose this." Not to scold yourself. Not to stop yourself. Just to wake yourself up to the fact that a choice is being made. Sometimes the sentence feels true and you do it anyway — and that's fine, because at least it was yours. Sometimes the sentence stops you. Not because anyone told you to stop. Because hearing yourself say "I choose this" made something click. The power isn't in the stopping. It's in the consciousness.

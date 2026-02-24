@@ -1,4 +1,4 @@
-# Episode 3: Notice — A guided meditation
+# Episode 8: Notice — A guided meditation
 
 ## Theme
 A different format — slower, experiential. Most people think they "can't meditate" because their mind wanders. But the wandering isn't the failure. The moment you notice you've wandered is the entire practice. You already did it. You just didn't know it counted. The episode becomes a gentle guided noticing exercise mid-way through.

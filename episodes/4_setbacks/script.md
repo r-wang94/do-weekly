@@ -1,4 +1,4 @@
-# Episode 6: Setbacks
+# Week 4: Setbacks
 
 ---
 
@@ -18,7 +18,7 @@ That's what setbacks really do. They don't just pause progress. They make you pr
 
 But nothing was erased. The walks still happened. The early nights still counted. The weeks of showing up didn't disappear because one week didn't go to plan. The person who tried for six weeks and stumbled is in a completely different place from the person who never started. The progress is still there. You just can't see it through the shame.
 
-The runner who's out every morning has missed whole months. The friend who cooks from scratch had a winter where everything came from a packet. I had a spine injury and six months on my back. Everyone who's ever built something lasting has cracks in it. They just didn't let a bad month become a verdict.
+The runner who's out every morning has missed whole months. The friend who cooks from scratch had a winter where everything came from a packet. I had a spine injury and 3 months on my back. Everyone who's ever built something lasting has cracks in it. They just didn't let a bad month become a verdict.
 
 When I started coming back, the first thing I did was almost embarrassingly small. But it was forward. And it didn't feel like starting over. It felt like picking up something I'd put down. The body doesn't hold grudges the way the mind does. One small thing after weeks of nothing didn't feel like punishment. It felt like relief. And the momentum came back faster than I expected. Not because I was strong. Because momentum doesn't need much. It just needs forward.
 
@@ -26,7 +26,7 @@ I don't just look back on that time and think I survived it. I think it made me 
 
 The friend who really gets it when you're struggling isn't the one who had it easy. It's the one who's been there. The kindness that actually lands comes from someone who knows what it costs.
 
-Sometimes, parts of us break. But for me, it turns out the broken part was the most useful one.
+Sometimes, parts of us break. But for me, it turns out the broken part was actually a useful one.
 
 There's a Japanese art called kintsugi. When a valuable vase or piece of pottery breaks, they don't throw it away. They fill every crack with gold. The repair becomes the most beautiful part of the bowl. Not despite the breaking. Because of it. A bowl that's never been broken has no gold in it.
 

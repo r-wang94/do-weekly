@@ -1,4 +1,4 @@
-# Episode 5: Capacity — You can't pour from empty
+# Episode 6: Capacity — You can't pour from empty
 
 ## Theme
 When we're running low, we do the exact opposite of what our phone does in low power mode. The phone cuts background drains and protects what matters. We keep every drain running (emails, obligations, saying yes) and cut the things that would actually recharge us (the swim, the friend, the early night). We cut the charges because they feel optional. The drains feel like duty. And duty always wins.

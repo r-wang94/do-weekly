@@ -1,4 +1,4 @@
-# Episode 8: Tonight — Tomorrow starts tonight
+# Episode 9: Tonight — Tomorrow starts tonight
 
 ## Theme
 We pour all our energy into fixing the morning — alarms, routines, apps — when the real problem is the night before. The best morning routine starts at 9pm. The evening feels like "our" time, the first moment all day where nobody needs anything. So we treat it like free time: scrolling, snacking, one more episode. But while we're not paying attention, tomorrow is already being written.

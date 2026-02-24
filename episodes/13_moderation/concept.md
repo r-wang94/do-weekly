@@ -1,4 +1,4 @@
-# Episode 12: Moderation — Your body already knows when to stop
+# Episode 13: Moderation — Your body already knows when to stop
 
 ## Theme
 Philippus Paracelsus, a sixteenth-century physician, wrote a line that medicine still teaches today: "All things are poison, and nothing is without poison. Only the dose makes a thing not a poison." Water can kill you. Oxygen can kill you. Exercise can destroy your joints. The thing that keeps you alive and the thing that kills you are the same thing. The only difference is the amount.
