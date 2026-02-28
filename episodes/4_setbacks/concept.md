@@ -1,7 +1,7 @@
-# Episode 4: Setbacks — Give up or keep going. There is no third option.
+# Episode 4: Setbacks — The cracks are where the gold goes
 
 ## Theme
-Setbacks aren't interruptions to the journey. They ARE the journey. When something knocks you down — an injury, a diagnosis, a relapse into old habits, a week where everything falls apart — you face exactly two choices. Give up or keep going. There is no third option. There is no "wait until I feel ready." There is no "I'll start again when things are easier." You're either moving forward, however slowly, or you've stopped. This episode uses Robin's real experience — a back injury from rowing, a spine deformity, hospitalisation, and a period of being largely immobilised — to ground the idea in something lived, not theoretical.
+Setbacks aren't interruptions to the journey. They ARE the journey. When something knocks you down — an injury, a diagnosis, a relapse into old habits, a week where everything falls apart — the damage isn't the stumble itself. It's the story you tell yourself about it. "I always do this." "I can't stick to anything." The setback becomes a verdict, and the verdict is what makes people stop. This episode uses Robin's real experience — a back injury from rowing, a spine deformity, hospitalisation, and a period of being largely immobilised — to ground the idea in something lived, not theoretical. The core reframe: the setback didn't erase the progress. The progress is still there. You just can't see it through the shame.
 
 ## Pillar(s)
 - **Move** — the injury directly removed the ability to move. Getting it back was the fight.
@@ -19,10 +19,10 @@ The listener has had setbacks. Maybe not a hospitalisation. Maybe a week where t
 ## Creative approach
 - **Robin's real story as the opener.** The back injury, the rowing, the spine deformity, the hospital. This is the first episode where Robin shares something deeply personal and it opens the episode. No external story, no metaphor — just Robin, telling you what happened. The confession shape. It earns its weight because it's real and because the listener didn't expect it from their doctor. Robin needs to provide the specific details — timeline, what happened, what the lowest point felt like, what the first step back looked like.
 - **Churchill placed elegantly inside or at the close.** "If you're going through hell, keep going." Not as the opening — as a landing point. After Robin's story has established the weight, the quote arrives with earned authority. Could sit just before the CTA or as the final sticky line before sign-off.
-- **The binary as the reframe.** Two choices. Only ever two. Strip away the noise, the excuses, the "I'll start Monday." You're either going or you've stopped. And if you're listening to this, you haven't stopped.
+- **The verdict as the reframe.** The setback itself isn't the problem. The story that follows is. "I always do this." "I can't stick to anything." The missed walk becomes proof. A bad week becomes a life sentence. The reframe: nothing was erased. The progress is still there. The shame is just blocking the view.
 
 ## CTA
-This week, if something doesn't go to plan — and something won't — notice the moment where the voice says "see, it's not working." And instead of listening, ask one question: am I done? If the answer is no, then the setback doesn't matter. Keep going.
+A "thing to notice" shape. This week, when something doesn't go to plan, notice the verdict. The story that starts writing itself. That's not truth. That's shame talking. The progress is still there.
 
 ## Notes for Robin
 This concept needs your real details to work. Specifically:

@@ -8,7 +8,7 @@ There's a poem by Constantine Cavafy, a Greek poet, called Ithaca. It's about Od
 
 Health has the same problem. Most people are treating it like a place they haven't reached yet.
 
-"I'll feel good about myself when I lose the weight." "I'll relax when things calm down." "I'll start looking after myself properly when..." When what? When the kids are older. When work settles. When the house is done. When January comes around. There's always a "when." And the "when" never arrives. Because every time someone gets to the place they were heading, there's a new place behind it. A new number on the scales. A new milestone set by the new health fad. A new version of "not quite there yet."
+"I'll feel good about myself when I lose the weight." "I'll relax when things calm down." "I'll start looking after myself properly when..." When what? When the kids are older. When work settles. When the house is done. When January comes around. There's always a "when." And the "when" often doesn't arrive. Because every time someone gets to the place they were heading, there's a new place behind it. A new number on the scales. A new milestone set by the new health fad. A new version of "not quite there yet."
 
 The goalposts don't just move. They were never fixed in the first place.
 
