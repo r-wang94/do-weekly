@@ -233,7 +233,7 @@ When a story isn't the right fit, other shapes to reach for:
 
 - Pauses are mostly implicit — short sentences and paragraph breaks do the work. But a deliberate `[pause]` marker can be used sparingly for moments that need to land. A line that changes the direction. A question the listener needs to sit with. A beat before the turn. Use them like a rest in music — powerful because they're rare.
 - Use line breaks generously for pacing
-- Avoid em-dashes; use full stops instead
+- **No em-dashes anywhere.** Not in scripts, show notes, HTML, RSS, file names, or any generated text. Use full stops, commas, or hyphens instead. No exceptions.
 - British English spelling (behaviour, organised, mum)
 
 ---
@@ -362,6 +362,10 @@ When a `recording.mp3` is added to an episode folder:
     - Add an episode card (with audio player) to the `.episodes` section, following the existing pattern
     - Remove the episode from the "Coming up" list
     - Audio `src` uses `https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/N_theme/recording.mp3`
+    - **Show notes** must include three parts: summary, quote, and CTA. Write them to this standard:
+      - **Summary:** The essence of the episode in 2-3 sentences. Not a retelling or synopsis. Distil the core insight into something that works as both a reminder for someone who listened and a hook for someone who hasn't. No story details, no narration of the episode's structure. Just the emotional truth, said cleanly.
+      - **Quote:** One line from the script that someone would text to a friend. The stickiest, most shareable sentence in the episode.
+      - **CTA:** The episode's "one thing to try", written as a direct instruction. Short, concrete, doable.
 17. **Update `docs/feed.xml`:**
     - Add an `<item>` entry with title, description (from `concept.md` theme), enclosure URL, file size (`length`), duration in seconds, and `pubDate`
     - Use `guid` format: `do-weekly-ep-N-theme`
