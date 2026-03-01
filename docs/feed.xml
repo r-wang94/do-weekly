@@ -42,5 +42,16 @@
       <guid isPermaLink="false">do-weekly-ep-2-discomfort</guid>
     </item>
 
+    <item>
+      <title>Savour - The forgotten skill of enjoyment</title>
+      <itunes:title>Savour - The forgotten skill of enjoyment</itunes:title>
+      <itunes:episode>3</itunes:episode>
+      <description>The good things are already in your life. You're just moving through them too quickly to feel them. This episode asks what happens when you stop rushing past the good bits and actually stay for them.</description>
+      <enclosure url="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/3_savour/recording.mp3" length="7681842" type="audio/mpeg"/>
+      <itunes:duration>455</itunes:duration>
+      <pubDate>Wed, 19 Feb 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="false">do-weekly-ep-3-savour</guid>
+    </item>
+
   </channel>
 </rss>

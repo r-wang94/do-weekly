@@ -428,13 +428,43 @@
         </form>
       </article>
 
+      <article class="episode" role="listitem">
+        <div class="episode-number">Episode 3</div>
+        <div class="episode-title">Savour</div>
+        <div class="episode-description">The forgotten skill of enjoyment</div>
+        <div class="player" aria-label="Play Episode 3: Savour">
+          <audio preload="none">
+            <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/3_savour/recording.mp3" type="audio/mpeg">
+          </audio>
+          <button class="play-btn" aria-label="Play">
+            <svg viewBox="0 0 16 16" class="icon-play"><polygon points="3,1 13,8 3,15"/></svg>
+            <svg viewBox="0 0 16 16" class="icon-pause" style="display:none"><rect x="2" y="1" width="4" height="14"/><rect x="10" y="1" width="4" height="14"/></svg>
+          </button>
+          <div class="player-track">
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <div class="player-time"><span class="time-current">0:00</span><span class="time-duration">0:00</span></div>
+          </div>
+        </div>
+        <button class="show-notes-toggle" aria-expanded="false" aria-controls="notes-3"><span class="arrow">&#9654;</span> Show notes</button>
+        <div class="show-notes" id="notes-3">
+          <p class="show-notes-summary">In 1986, a McDonald's opened at the foot of the Spanish Steps in Rome. An Italian food writer protested — not the food, but the disappearing act of actually being present for a meal. Forty years later, we've lost it with everything. The coffee drunk while clearing emails. The walk spent on the phone. The good bits are there every day. They just don't get the attention they used to.</p>
+          <p class="show-notes-quote">"We don't need more good things in our lives. We just need to be in the room when they happen."</p>
+          <p class="show-notes-cta"><strong>This week:</strong> Pick one thing you already do every day — a cup of tea, a walk, a meal — and do it once without anything else. No phone. No list in your head. Just the thing itself.</p>
+        </div>
+        <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST" aria-label="Feedback for Episode 3">
+          <input type="hidden" name="episode" value="Episode 3 – Savour">
+          <label for="feedback-3" class="sr-only">Your feedback on Episode 3</label>
+          <input type="text" id="feedback-3" name="message" placeholder="What did you think?" required>
+          <button type="submit">Send</button>
+        </form>
+      </article>
+
     </div>
 
     <div class="upcoming">
       <h2>Coming up</h2>
       <ul class="upcoming-list">
-        <li><span class="ep-num">3.</span> Savour: The forgotten skill of enjoyment</li>
-        <li><span class="ep-num">4.</span> Setbacks: Give up or keep going</li>
+        <li><span class="ep-num">4.</span> Setbacks: The cracks are where the gold goes</li>
         <li><span class="ep-num">5.</span> Choose: The power of naming the choice</li>
         <li><span class="ep-num">6.</span> Capacity: You can't pour from empty</li>
         <li><span class="ep-num">7.</span> Destination: You were never going somewhere</li>
