@@ -18,7 +18,7 @@ The listener has had setbacks. Maybe not a hospitalisation. Maybe a week where t
 
 ## Creative approach
 - **Robin's real story as the opener.** The back injury, the rowing, the spine deformity, the hospital. This is the first episode where Robin shares something deeply personal and it opens the episode. No external story, no metaphor — just Robin, telling you what happened. The confession shape. It earns its weight because it's real and because the listener didn't expect it from their doctor. Robin needs to provide the specific details — timeline, what happened, what the lowest point felt like, what the first step back looked like.
-- **Churchill placed elegantly inside or at the close.** "If you're going through hell, keep going." Not as the opening — as a landing point. After Robin's story has established the weight, the quote arrives with earned authority. Could sit just before the CTA or as the final sticky line before sign-off.
+- **Kintsugi as the reframe metaphor.** The Japanese art of filling cracks with gold. The repair becomes the most beautiful part. This carries the episode's emotional truth: the setback didn't diminish you, and the coming back is what makes you stronger.
 - **The verdict as the reframe.** The setback itself isn't the problem. The story that follows is. "I always do this." "I can't stick to anything." The missed walk becomes proof. A bad week becomes a life sentence. The reframe: nothing was erased. The progress is still there. The shame is just blocking the view.
 
 ## CTA

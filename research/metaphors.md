@@ -44,5 +44,6 @@ A bank of metaphors and analogies organised by what they illustrate. These are r
 
 ## Growth and patience
 - **Garden** — you can't force growth. You prepare the soil, plant, water, and wait. Health works the same way.
-- **Seeds** — planting now for a harvest you won't see yet.
+- **Seeds / acorn** — planting now for a harvest you won't see yet. The acorn sends a taproot thirty centimetres down before any shoot appears. Root-first. The visible part is the last thing to arrive. *(used ep 5)*
+- **Digging up the seed** — if you dig up a seed to check whether it's growing, you kill it. The checking is what stops the growth. Maps onto the daily weigh-in, the mirror check, the constant "is this working?" *(used ep 5)*
 - **Chopping wood** — before enlightenment, chop wood. After enlightenment, chop wood. The mundane work doesn't stop. It becomes the point.

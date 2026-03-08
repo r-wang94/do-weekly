@@ -15,42 +15,43 @@
 | # | Episode | Thread |
 |---|---|---|
 | 4 | **Setbacks** - The cracks are where the gold goes | Resilience & Growth |
-| 5 | **Choose** - The power of naming the choice | Presence & Awareness |
-| 6 | **Capacity** - You can't pour from empty | Self-care & Energy |
-| 7 | **Destination** - You were never going somewhere | Identity & Self-belief |
-| 8 | **Notice** - A guided meditation | Presence & Awareness |
-| 9 | **Tonight** - Tomorrow starts tonight | Self-care & Energy |
-| 10 | **Service** - The difference between obligation and devotion | Purpose & Values |
-| 11 | **Cost** - There's no free option. Pick your price. | Long Game |
+| 5 | **Capacity** - You can't pour from empty | Self-care & Energy |
+| 6 | **Choose** - The power of naming the choice | Presence & Awareness |
+| 7 | **Waiting** - What are you waiting for? | Purpose & Values |
+| 8 | **Seeds** - Planting now for a harvest you won't see yet | Long Game |
+| 9 | **Notice** - A guided meditation | Presence & Awareness |
+| 10 | **Destination** - You were never going somewhere | Identity & Self-belief |
+| 11 | **Tonight** - Tomorrow starts tonight | Self-care & Energy |
+| 12 | **Service** - The difference between obligation and devotion | Purpose & Values |
+| 13 | **Cost** - There's no free option. Pick your price. | Long Game |
 
 ### Conceptual
 
 | # | Episode | Thread |
 |---|---|---|
-| 12 | **Seeds** - Planting now for a harvest you won't see yet | Long Game |
-| 13 | **Balance** - Not everything deserves equal weight | Self-care & Energy |
-| 14 | **Moderation** - Your body already knows when to stop | Habits & Environment |
-| 15 | **Rituals** - The ordinary things you do on purpose | Habits & Environment |
-| 16 | **Tiny** - The smallest version still counts | Habits & Environment |
-| 17 | **Pain** - Pain is a message, not a punishment | Self-care & Energy |
-| 18 | **Shame** - The difference between guilt and shame | Emotional Intelligence |
-| 19 | **Hard** - It's supposed to be hard | Resilience & Growth |
-| 20 | **One** - The distance between zero and one is infinite | Resilience & Growth |
-| 21 | **Stories** - The story you're telling yourself | Identity & Self-belief |
-| 22 | **Boring** - Consistency is boring. Good. | Habits & Environment |
-| 23 | **Control** - What can you actually change? | Purpose & Values |
-| 24 | **Pause** - The gap between stimulus and response | Presence & Awareness |
-| 25 | **Permission** - Stop waiting for permission | Purpose & Values |
-| 26 | **Enough** - When is enough, enough? | Purpose & Values |
-| 27 | **Showing up** - Done is better than perfect | Resilience & Growth |
-| 28 | **Wonder** - The small delights hiding in plain sight | Presence & Awareness |
-| 29 | **Capable** - You've made it through 100% of your hardest days | Identity & Self-belief |
-| 30 | **Voice** - The voice in your head. Is it a friend or a critic? | Emotional Intelligence |
-| 31 | **Wood** - Before enlightenment, chop wood. After enlightenment, chop wood. | Long Game |
-| 32 | **Less** - The power of subtraction. What could you stop doing? | Habits & Environment |
-| 33 | **Grip** - The thing you're holding too tightly | Emotional Intelligence |
-| 34 | **Why** - He who has a why can bear any how | Purpose & Values |
-| 35 | **Gratitude** - What if you already have more than you think? | Presence & Awareness |
+| 14 | **Balance** - Not everything deserves equal weight | Self-care & Energy |
+| 15 | **Moderation** - Your body already knows when to stop | Habits & Environment |
+| 16 | **Rituals** - The ordinary things you do on purpose | Habits & Environment |
+| 17 | **Tiny** - The smallest version still counts | Habits & Environment |
+| 18 | **Pain** - Pain is a message, not a punishment | Self-care & Energy |
+| 19 | **Shame** - The difference between guilt and shame | Emotional Intelligence |
+| 20 | **Hard** - It's supposed to be hard | Resilience & Growth |
+| 21 | **One** - The distance between zero and one is infinite | Resilience & Growth |
+| 22 | **Stories** - The story you're telling yourself | Identity & Self-belief |
+| 23 | **Boring** - Consistency is boring. Good. | Habits & Environment |
+| 24 | **Control** - What can you actually change? | Purpose & Values |
+| 25 | **Pause** - The gap between stimulus and response | Presence & Awareness |
+| 26 | **Permission** - Stop waiting for permission | Purpose & Values |
+| 27 | **Enough** - When is enough, enough? | Purpose & Values |
+| 28 | **Showing up** - Done is better than perfect | Resilience & Growth |
+| 29 | **Wonder** - The small delights hiding in plain sight | Presence & Awareness |
+| 30 | **Capable** - You've made it through 100% of your hardest days | Identity & Self-belief |
+| 31 | **Voice** - The voice in your head. Is it a friend or a critic? | Emotional Intelligence |
+| 32 | **Wood** - Before enlightenment, chop wood. After enlightenment, chop wood. | Long Game |
+| 33 | **Less** - The power of subtraction. What could you stop doing? | Habits & Environment |
+| 34 | **Grip** - The thing you're holding too tightly | Emotional Intelligence |
+| 35 | **Why** - He who has a why can bear any how | Purpose & Values |
+| 36 | **Gratitude** - What if you already have more than you think? | Presence & Awareness |
 
 ---
 
