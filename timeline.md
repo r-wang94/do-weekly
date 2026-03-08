@@ -9,12 +9,12 @@
 | 1 | **Identity** - You are what you repeat | Identity & Self-belief |
 | 2 | **Discomfort** - Comfort is the trap | Resilience & Growth |
 | 3 | **Savour** - The forgotten skill of enjoyment | Presence & Awareness |
+| 4 | **Setbacks** - The cracks are where the gold goes | Resilience & Growth |
 
 ### Planned
 
 | # | Episode | Thread |
 |---|---|---|
-| 4 | **Setbacks** - The cracks are where the gold goes | Resilience & Growth |
 | 5 | **Capacity** - You can't pour from empty | Self-care & Energy |
 | 6 | **Choose** - The power of naming the choice | Presence & Awareness |
 | 7 | **Waiting** - What are you waiting for? | Purpose & Values |

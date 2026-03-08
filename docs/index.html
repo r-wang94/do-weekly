@@ -459,17 +459,47 @@
         </form>
       </article>
 
+      <article class="episode" role="listitem">
+        <div class="episode-number">Episode 4</div>
+        <div class="episode-title">Setbacks</div>
+        <div class="episode-description">The cracks are where the gold goes</div>
+        <div class="player" aria-label="Play Episode 4: Setbacks">
+          <audio preload="none">
+            <source src="https://raw.githubusercontent.com/r-wang94/do-weekly/main/episodes/4_setbacks/recording.mp3" type="audio/mpeg">
+          </audio>
+          <button class="play-btn" aria-label="Play">
+            <svg viewBox="0 0 16 16" class="icon-play"><polygon points="3,1 13,8 3,15"/></svg>
+            <svg viewBox="0 0 16 16" class="icon-pause" style="display:none"><rect x="2" y="1" width="4" height="14"/><rect x="10" y="1" width="4" height="14"/></svg>
+          </button>
+          <div class="player-track">
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <div class="player-time"><span class="time-current">0:00</span><span class="time-duration">0:00</span></div>
+          </div>
+        </div>
+        <button class="show-notes-toggle" aria-expanded="false" aria-controls="notes-4"><span class="arrow">&#9654;</span> Show notes</button>
+        <div class="show-notes" id="notes-4">
+          <p class="show-notes-summary">Nothing gets erased. Not the walks, not the early nights, not the weeks of showing up. A setback can make you forget all of it, but the progress is still there. This episode is about remembering what's already behind you.</p>
+          <p class="show-notes-quote">"We just don't count the comebacks as often as we count the setbacks."</p>
+          <p class="show-notes-cta"><strong>This week:</strong> When something doesn't go to plan and the judgement starts writing itself, do one thing that moves you forward. One walk. One early night. One meal you actually meant to cook. Not to fix anything. Just to prove the judgement wrong.</p>
+        </div>
+        <form class="episode-feedback" action="https://formspree.io/f/xykdpqdn" method="POST" aria-label="Feedback for Episode 4">
+          <input type="hidden" name="episode" value="Episode 4 – Setbacks">
+          <label for="feedback-4" class="sr-only">Your feedback on Episode 4</label>
+          <input type="text" id="feedback-4" name="message" placeholder="What did you think?" required>
+          <button type="submit">Send</button>
+        </form>
+      </article>
+
     </div>
 
     <div class="upcoming">
       <h2>Coming up</h2>
       <ul class="upcoming-list">
-        <li><span class="ep-num">4.</span> Setbacks: The cracks are where the gold goes</li>
-        <li><span class="ep-num">5.</span> Choose: The power of naming the choice</li>
-        <li><span class="ep-num">6.</span> Capacity: You can't pour from empty</li>
-        <li><span class="ep-num">7.</span> Destination: You were never going somewhere</li>
-        <li><span class="ep-num">8.</span> Notice: A guided meditation</li>
-        <li><span class="ep-num">9.</span> Tonight: Tomorrow starts tonight</li>
+        <li><span class="ep-num">5.</span> Capacity: You can't pour from empty</li>
+        <li><span class="ep-num">6.</span> Choose: The power of naming the choice</li>
+        <li><span class="ep-num">7.</span> Waiting: What are you waiting for?</li>
+        <li><span class="ep-num">8.</span> Seeds: Planting now for a harvest you won't see yet</li>
+        <li><span class="ep-num">9.</span> Notice: A guided meditation</li>
       </ul>
     </div>
 
